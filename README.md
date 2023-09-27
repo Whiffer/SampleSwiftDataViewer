@@ -8,4 +8,4 @@ This project is a sample App for the swiftdata-containerviewer package found at:
 
 ## Usage Notes
 
-For a complete description of the swiftdata-containerviewer package, how this sample App was created and how to use it, please see: https://github.com/Whiffer/swiftdata-containerviewer/README
+For a complete description of the swiftdata-containerviewer package, how this sample App was created and how to use it, please see: https://github.com/Whiffer/swiftdata-containerviewer/blob/main/README.md
