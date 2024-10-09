@@ -1,14 +1,15 @@
 {
+  "originHash" : "af99608624c614b48a8a47079adc8a2cdbadc6d6b1cbc585025b0be8a24ef8ac",
   "pins" : [
     {
       "identity" : "swiftdata-containerviewer",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Whiffer/swiftdata-containerviewer",
       "state" : {
-        "revision" : "062ba098be484f58a414fbdb353defb990051b61",
-        "version" : "1.0.0"
+        "revision" : "cdf71f40bc99a3809d5e6ceed9f087f1e1b4cb1f",
+        "version" : "1.0.1"
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

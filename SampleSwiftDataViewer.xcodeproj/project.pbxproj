@@ -17,7 +17,7 @@
 		131A8D232ABF3E7900C27236 /* SampleSwiftDataViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131A8D222ABF3E7900C27236 /* SampleSwiftDataViewerUITestsLaunchTests.swift */; };
 		131A8D312ABF3F1B00C27236 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 131A8D2F2ABF3F1B00C27236 /* LICENSE.txt */; };
 		131A8D322ABF3F1B00C27236 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 131A8D302ABF3F1B00C27236 /* README.md */; };
-		13D02A592AC4D751001C0E81 /* SwiftDataContainerViewer in Frameworks */ = {isa = PBXBuildFile; productRef = 13D02A582AC4D751001C0E81 /* SwiftDataContainerViewer */; };
+		13D227D02CB71AFA00EB573B /* SwiftDataContainerViewer in Frameworks */ = {isa = PBXBuildFile; productRef = 13D227CF2CB71AFA00EB573B /* SwiftDataContainerViewer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13D02A592AC4D751001C0E81 /* SwiftDataContainerViewer in Frameworks */,
+				13D227D02CB71AFA00EB573B /* SwiftDataContainerViewer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +89,7 @@
 				131A8D012ABF3E7800C27236 /* SampleSwiftDataViewer */,
 				131A8D152ABF3E7900C27236 /* SampleSwiftDataViewerTests */,
 				131A8D1F2ABF3E7900C27236 /* SampleSwiftDataViewerUITests */,
+				13D227CE2CB71AFA00EB573B /* Frameworks */,
 				131A8D002ABF3E7800C27236 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -142,6 +143,13 @@
 			path = SampleSwiftDataViewerUITests;
 			sourceTree = "<group>";
 		};
+		13D227CE2CB71AFA00EB573B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,7 +167,7 @@
 			);
 			name = SampleSwiftDataViewer;
 			packageProductDependencies = (
-				13D02A582AC4D751001C0E81 /* SwiftDataContainerViewer */,
+				13D227CF2CB71AFA00EB573B /* SwiftDataContainerViewer */,
 			);
 			productName = SampleSwiftDataViewer;
 			productReference = 131A8CFF2ABF3E7800C27236 /* SampleSwiftDataViewer.app */;
@@ -209,7 +217,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					131A8CFE2ABF3E7800C27236 = {
 						CreatedOnToolsVersion = 15.0;
@@ -234,7 +242,7 @@
 			);
 			mainGroup = 131A8CF62ABF3E7800C27236;
 			packageReferences = (
-				13D02A572AC4D751001C0E81 /* XCRemoteSwiftPackageReference "swiftdata-containerviewer" */,
+				13D227D22CB73BAE00EB573B /* XCRemoteSwiftPackageReference "swiftdata-containerviewer" */,
 			);
 			productRefGroup = 131A8D002ABF3E7800C27236 /* Products */;
 			projectDirPath = "";
@@ -353,6 +361,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -414,6 +423,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -441,6 +451,7 @@
 				CODE_SIGN_ENTITLEMENTS = SampleSwiftDataViewer/SampleSwiftDataViewer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SampleSwiftDataViewer/Preview Content\"";
 				DEVELOPMENT_TEAM = 64WN437W3Z;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -480,6 +491,7 @@
 				CODE_SIGN_ENTITLEMENTS = SampleSwiftDataViewer/SampleSwiftDataViewer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SampleSwiftDataViewer/Preview Content\"";
 				DEVELOPMENT_TEAM = 64WN437W3Z;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -514,10 +526,10 @@
 		131A8D2A2ABF3E7900C27236 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 64WN437W3Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -537,10 +549,10 @@
 		131A8D2B2ABF3E7900C27236 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 64WN437W3Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -560,9 +572,9 @@
 		131A8D2D2ABF3E7900C27236 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 64WN437W3Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -582,9 +594,9 @@
 		131A8D2E2ABF3E7900C27236 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 64WN437W3Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -643,20 +655,19 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		13D02A572AC4D751001C0E81 /* XCRemoteSwiftPackageReference "swiftdata-containerviewer" */ = {
+		13D227D22CB73BAE00EB573B /* XCRemoteSwiftPackageReference "swiftdata-containerviewer" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Whiffer/swiftdata-containerviewer";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		13D02A582AC4D751001C0E81 /* SwiftDataContainerViewer */ = {
+		13D227CF2CB71AFA00EB573B /* SwiftDataContainerViewer */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 13D02A572AC4D751001C0E81 /* XCRemoteSwiftPackageReference "swiftdata-containerviewer" */;
 			productName = SwiftDataContainerViewer;
 		};
 /* End XCSwiftPackageProductDependency section */
