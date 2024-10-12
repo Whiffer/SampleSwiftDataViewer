@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Whiffer/swiftdata-containerviewer",
       "state" : {
-        "revision" : "cdf71f40bc99a3809d5e6ceed9f087f1e1b4cb1f",
-        "version" : "1.0.1"
+        "revision" : "1294a5149fbc8c155b364a9fad913f82c02edbe9",
+        "version" : "1.0.2"
       }
     }
   ],
